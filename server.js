@@ -12,7 +12,7 @@ app.use(cors())
 const MongoClient = require('mongodb').MongoClient;
 
 //add database connection...
-const uri = 'mongodb+srv://seth:seth@cluster0.tkqmfcm.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://hassan:1234@cluster0.ilh2bna.mongodb.net/?retryWrites=true&w=majority'
 const client = new MongoClient(uri, {useNewUrlParser: true})
 
 //insert project...
